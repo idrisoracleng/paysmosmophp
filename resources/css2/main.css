@@ -1,0 +1,157 @@
+body{
+    background-color: #f2f3f7;
+  }
+
+  #bgred{
+    background-color: #004186;
+    height: 20px;
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+  }
+  #test{
+    color:#ffffff;
+  }
+
+  .mega-menu{
+    width:800px;
+    overflow:hidden;
+    padding:10px;
+  }
+
+  /* change the link color */
+  .nav-link {
+      color: white !important;
+  }
+
+  /* ul.breadcrumb {
+      margin: 23px 0;
+      background-color: transparent;
+      padding: 0;
+      display: inline-block;
+      width: 100%;
+      line-height: 100%;
+  }
+
+  .breadcrumb {
+      list-style: none;
+  } */
+
+  /* ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  float:left;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+   content: "\00a0"; */
+/*}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: none;
+} */
+
+/* .d{
+  display:flex;
+}
+.d1{
+  flex:1;
+}
+.d2{
+  flex:1;
+} */
+
+/* .card-body .fa{
+  color:red;
+} */
+
+.overlay{
+  display:block;
+  opacity:0;
+  position:absolute;
+  top:10%;
+  margin-left:0;
+  width:70%;
+}
+
+.card:hover .overlay{
+  opacity:1;
+  margin-left:5%;
+  transition:0.5s;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+.mt-10{
+  margin-top:30px;
+}
+
+h4{
+  color:#000;
+}
+
+
+.mt-50{
+  margin-top:50px;
+}
+.card-grp1{
+  position:absolute;
+  top:40px;
+}
+.card-grp2{
+  font-size:30px;
+  color:white;
+}
+.b-white{
+  color:#fff;
+  background:#000 !important;
+}
+.pink{
+  background:#fd7b7b;
+}
+.mb-30{
+  margin-bottom:30px;
+}
+.mb-50{
+  margin-bottom:50px;
+}
+.price{
+  color:#ff3c20;
+  font-weight:bold;
+}
+
+
+
+@media screen and (max-width:320px){
+
+  .card-grp2{
+    font-size:15px;
+    color:white;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  .card-grp2{
+    font-size:15px;
+    color:white;
+  }
+}
+
+@media screen and (max-width:1024px){
+
+  .card-grp2{
+    font-size:20px;
+    color:white;
+  }
+}

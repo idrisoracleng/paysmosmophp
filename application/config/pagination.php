@@ -1,0 +1,43 @@
+<?php
+$config['pagination_config'] = array(
+    'per_page' => 20,
+    'num_links' => 5,
+    'full_tag_open' => '<ul class="page-numbers">',
+    'full_tag_close' => '</ul>',
+    'num_tag_open' => '<li class=""><span class="page-numbers">',
+    'num_tag_close' => '</span></li>',
+    'cur_tag_open' => '<li class=""><a class="page-numbers current" href="#">',
+    'cur_tag_close' => '</a></li>',
+    'prev_tag_open' => '<li class=""><span class="page-numbers">',
+    'prev_tag_close' => '</span></li>',
+    'next_tag_open' => '<li class="next "><span class="page-numbers">',
+    'next_tag_close' => '</span></li>',
+    'prev_link' => '<i class="fa fa-arrow-left"></i>',
+    'next_link' => '<i class="fa fa-arrow-right"></i>',
+    'last_tag_open' => '<li class=""><span class="page-numbers">',
+    'last_tag_close' => '</span></li>',
+    'first_tag_open' => '<li class=""><span class="page-numbers">',
+    'first_tag_close' => '</span></li>',
+);
+
+
+$config['admin_pagination_config'] = array(
+    'per_page' => 20,
+    'num_links' => 5,
+    'full_tag_open' => '<ul class="pagination">',
+    'full_tag_close' => '</ul>',
+    'num_tag_open' => '<li class="page-item"><span class="page-link">',
+    'num_tag_close' => '</span></li>',
+    'cur_tag_open' => '<li class="page-item"><a class="page-link current" href="#">',
+    'cur_tag_close' => '</a></li>',
+    'prev_tag_open' => '<li class="page-item"><span class="page-link">',
+    'prev_tag_close' => '</span></li>',
+    'next_tag_open' => '<li class="next "><span class="page-link">',
+    'next_tag_close' => '</span></li>',
+    'prev_link' => '<i class="fa fa-arrow-left"></i>',
+    'next_link' => '<i class="fa fa-arrow-right"></i>',
+    'last_tag_open' => '<li class="page-item"><span class="page-link">',
+    'last_tag_close' => '</span></li>',
+    'first_tag_open' => '<li class="page-item"><span class="page-link">',
+    'first_tag_close' => '</span></li>',
+);
